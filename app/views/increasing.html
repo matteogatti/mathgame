@@ -1,0 +1,17 @@
+<div class="col col-md-8">
+  <xcreasing type="increasing" data-method="imageResult"></xcreasing>
+</div>
+
+<div class="col col-md-4">
+  <div class="thumbnail">
+    <div class="caption text-center" ng-show="imageResult">
+      <h3>{{ cartoon.title }}</h3>
+      <p>{{ cartoon.messageStart }}</p>
+    </div>
+    <img ng-show="imageResult" ng-src="{{ cartoon.picStart }}" alt="Cartoon">
+    <img ng-show="!imageResult" ng-src="{{ cartoon.picEnd }}" alt="Cartoon">
+    <div class="caption text-center" ng-show="!imageResult">
+      <p>{{ cartoon.messageEnd }}</p>
+    </div>
+  </div>
+</div>

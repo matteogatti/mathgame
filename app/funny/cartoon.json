@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Ranma ha un problema",
+    "messageStart": "Non ricorda come aprire il suo armadietto, puoi aiutarlo?",
+    "messageEnd": "Evviva, hai vinto un bacio!",
+    "picStart": "funny/ranmaStart.png",
+    "picEnd": "funny/ranmaEnd.png"
+  },
+  {
+    "title": "Elsa e Anna vogliono giocare",
+    "messageStart": "Non ricordano come fare un pupazzo di neve, puoi aiutarle?",
+    "messageEnd": "Evviva, abbiamo creato Olaf!",
+    "picStart": "funny/frozenStart.jpg",
+    "picEnd": "funny/frozenEnd.jpg"
+  },
+  {
+    "title": "Paperino vuole uscire",
+    "messageStart": "Non ricorda dove si trovano le chiavi della macchina, puoi aiutarlo?",
+    "messageEnd": "Paperino ha portato Paperina in barca",
+    "picStart": "funny/donaldStart.jpg",
+    "picEnd": "funny/donaldEnd.jpg"
+  },
+  {
+    "title": "Moris è arrabbiato",
+    "messageStart": "Non risece a trovare il suo amico",
+    "messageEnd": "Evviva l'ha trovato",
+    "picStart": "funny/vitagiunglaStart.jpg",
+    "picEnd": "funny/vitagiunglaEnd.png"
+  },
+  {
+    "title": "Heidi vuole giocare",
+    "messageStart": "Scopri cosa gli piacerebbe fare",
+    "messageEnd": "Vuole correre sui prati",
+    "picStart": "funny/heidiStart.jpg",
+    "picEnd": "funny/heidiEnd.jpg"
+  },
+  {
+    "title": "Rapunzel ha i capelli in disordine",
+    "messageStart": "Puoi sistemarli??",
+    "messageEnd": "Che bella pettinatura!",
+    "picStart": "funny/rapunzelStart.jpg",
+    "picEnd": "funny/rapunzelEnd.jpg"
+  }
+]

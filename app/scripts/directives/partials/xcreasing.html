@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+    <h3>METTI IN SEQUENZA I NUMERI</h3>
+    <table class="table table-bordered">
+        <tr>
+            <td class="col col-md-1 font2" ng-repeat="n in numbers track by $index">{{ n }}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="col col-md-12 text-center">
+    <h3>ORDINE {{ type }}</h3>
+</div>
+<table class="table table-bordered">
+    <tr>
+        <td class="col col-md-1" ng-repeat="sn in sortedNumbers track by $index">
+            <input class="form-control" type="text" id="solution-{{ $index }}" ng-model="result"
+                   ng-keyup="checkResult($index, result)"/>
+            <input type="hidden" id="result-{{ $index }}" value="{{ sn }}"/>
+            <i class="glyphicon font2 icon-result"
+               ng-class="{true: 'glyphicon-thumbs-up text-success', false: 'glyphicon-thumbs-down text-warning'}[iconResult{{ $index }}]"></i>
+        </td>
+    </tr>
+</table>

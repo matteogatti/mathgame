@@ -12,7 +12,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "countdownGameApp",
+  "moduleName": "mathGameApp",
   "overrides": {
     "bootstrap": {
       "main": [

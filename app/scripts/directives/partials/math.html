@@ -1,0 +1,28 @@
+<div class="jumbotron text-center">
+    <h3>RISOLVI LE {{ type }}</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Operazione</th>
+                <th>Risultato</th>
+                <th>Esito</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="op in operations track by $index">
+                <td class="col col-md-2 font2">{{ $index+1 }}</td>
+                <td class="col col-md-2 font2">{{ op.string }}</td>
+                <td class="col col-md-2 font2">
+                    <input class="form-control" type="text" id="solution-{{ $index }}" ng-model="result" ng-keyup="checkResult($index, result)"/>
+                </td>
+                <td class="col col-md-2">
+                    <i class="glyphicon font2 icon-result" ng-class="{true: 'glyphicon-thumbs-up text-success', false: 'glyphicon-thumbs-down text-warning'}[iconResult{{ $index }}]"></i>
+                    <input type="hidden" id="result-{{ $index }}" value="{{ op.result }}"/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div ng-show="note" class="col col-md-12"><strong>NOTA:</strong> Se il primo numero è più piccolo del secondo, scrivere: <strong>no</strong></div>
+</div>

@@ -20,6 +20,16 @@ angular
                 templateUrl: 'views/default.html',
                 controller: 'defaultCtrl'
             })
+            .when('/addition', {
+                templateUrl: 'views/addition.html',
+                controller: 'additionCtrl',
+                controllerAs: 'addition'
+            })
+            .when('/subtraction', {
+                templateUrl: 'views/subtraction.html',
+                controller: 'subtractionCtrl',
+                controllerAs: 'subtraction'
+            })
             .when('/increasing', {
                 templateUrl: 'views/increasing.html',
                 controller: 'increasingCtrl',

@@ -63,7 +63,7 @@ angular.module('mathGameApp').directive('xcreasing', function ($parse, $timeout)
                 return attrs.type == 'decreasing' ? b - a : a - b;
             }
 
-            /** generate 10 random numer from 0 to 20 */
+            /** generate 10 random number from 0 to 20 */
             for (var i = 0; i < 12; i++) {
                 var number = Math.floor((Math.random() * 21) + 0);
 

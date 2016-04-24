@@ -40,6 +40,8 @@
 
             <ul class="nav navbar-nav" ng-controller="generalCtrl">
               <li ng-class="{ active: isActive('/default')}"><a href="#/default">Home</a></li>
+              <li ng-class="{ active: isActive('/addition')}"><a href="#/addition">Addizione</a></li>
+              <li ng-class="{ active: isActive('/subtraction')}"><a href="#/subtraction">Sottrazione</a></li>
               <li ng-class="{ active: isActive('/increasing')}"><a href="#/increasing">Crescente</a></li>
               <li ng-class="{ active: isActive('/decreasing')}"><a href="#/decreasing">Decrescente</a></li>
             </ul>
@@ -88,6 +90,9 @@
         <script src="scripts/controllers/general.js"></script>
         <script src="scripts/controllers/increasing.js"></script>
         <script src="scripts/controllers/decreasing.js"></script>
+        <script src="scripts/controllers/addition.js"></script>
+        <script src="scripts/controllers/subtraction.js"></script>
+        <script src="scripts/directives/math.js"></script>
         <!-- endbuild -->
 </body>
 </html>
